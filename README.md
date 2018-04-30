@@ -11,3 +11,6 @@ library(sixproblems)
 ## Help
 For help, type:
 ```?sixproblems```
+
+## Datasets included
+```nosof94tld``` - Trial-level individual-subject data from Nosofsky, Gluck, Palmeri, McKinley & Glautier (1994).
