@@ -28,15 +28,17 @@ Nosofsky et al. (1994) 'Six Problems' data set
     \item{\code{phystim}}{Physical stimulus number: 1-8. Correspondance
       of these numbers to the physical stimuli shown in Nosofsky et
       al. (1994, Figure 1) is not known, but they represent the same
-      physical stimulus throughout the data file (e.g. if 1 were to
-      equal small, white, square, then it would do so for all trial for
-      all subjects.}
+      physical stimulus throughout the data file (e.g. if 1 were to be a
+      small, white, square, then it would be so for all trials for
+      all subjects). May also be set to 'NA' - see format notes below.}
     \item{\code{resp}}{The participant's response: 0 or 1, indicating
       which of the two categories was chosen. The physical response keys
-    to which these numbers correspond is unknown.}
+    to which these numbers correspond is unknown. May also be set to
+    'NA' - see format notes below.}
     \item{\code{cat}}{The category membership of the presented item: 0
       or 1. The physical category labels to which these numbers
-      correspond is unknown.}
+      correspond is unknown. May also be set to 'NA' - see format notes
+      below.}
     \item{\code{error}}{Did the participant make an error on this trial?
     1 = yes, 0 = no. This column was derived from a comparison of the
     \code{resp} and \code{cat} columns}
@@ -45,40 +47,58 @@ Nosofsky et al. (1994) 'Six Problems' data set
 \details{
 
   These are the trial-level individual-subject data for the Nosofsky et
-  al. (1994) replication of Shepard et al. (1961). The comprise the
+  al. (1994) replication of Shepard et al. (1961). They comprise the
   responses of 120 undegraduates from Indiana University, each of whom
   completed two of the six problems. For further details of this
-  experiment, see Nosofsky, Gluck et al. (1994)
+  experiment, see Nosofsky, Gluck et al. (1994).
 
-  These data were collected in around 1991, and were first reported in
-  Nosofsky, Gluck et al. (1994), and in Nosofsky, Palmeri et
-  al. (1994). In 2018, Andy Wills requested and received a digital copy of
-  the individual trial-level data from Tom Palmeri. Andy Wills verified
-  that these data reproduced Table 1 of Nosofsky, Gluck et al. (1994),
-  and Figures 6-8 of Nosofsky, Palmeri et al. (1994). He then
+  FORMAT NOTES: Participants were trained to criterion, the problem
+  terminating when the participant had completed four consecutive
+  sub-blocks without error. However, the analyses reported in Nosofsky
+  et al. (1994) assume that participants who met the criterion would
+  have made no further errors had they continued for the full 25
+  blocks. In order to faciltate the reproduction of such analyses, this
+  dataset explicitly represents those assumed post-criterion
+  trials. Post-criterion trials can be distinguished from trials the
+  participant actually experienced because all of \code{phystim},
+  \code{resp}, and \code{cat}, are set to NA for those trials. They can
+  thus be easily filtered out should that be desired for your particular
+  analysis.
+
+  SOURCE NOTES: These data were collected in around 1991, and were
+  reported in Nosofsky, Gluck et al. (1994), and in Nosofsky, Palmeri et
+  al. (1994). In April 2018, Wills requested and received a digital copy
+  of the individual trial-level data from Palmeri. Wills verified that
+  these data reproduced Table 1 of Nosofsky, Gluck et al. (1994), and
+  Figures 6-8 of Nosofsky, Palmeri et al. (1994). Wills then
   pre-processed the data into the long-file data format presented here.
-  
-  NOTE: Participants were trained to criterion, the problem terminating
-  when the participant had completed four consecutive sub-blocks without
-  error. However, the analyses reported in Nosofsky et al. (1994) assume
-  that participants who met the criterion would have made no further
-  errors had they continued for the full 25 blocks. In order to
-  faciltate the reproduction of such analyses, this dataset explicitly
-  represents those assumed post-criterion trials. Post-criterion trials
-  can be distinguished from trials the participant actually experienced
-  because all of \code{phystim}, \code{resp}, and \code{cat}, are set to
-  NA for those trials. They can thus be easily filtered out should that
-  be desired for your particular analysis.
+
+  DAU: ind1991-01
 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+
+  Nosofsky, R.M., Gluck, M.A., Plameri, T.J., McKinley, S.C. and
+  Glauthier, P.  (1994). Comparing models of rule-based classification
+  learning: A replication and extension of Shepaard, Hovland, and
+  Jenkins (1961). \emph{Memory and Cognition, 22}, 352-369.
+
 }
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+
+  Nosofsky, R.M., Palmeri, T.J. and McKinley,
+  S.C. (1994). Rule-plus-exception model of classification
+  learning. \emph{Psychological Review, 101}, 53-79.
+  
+  Shepard, R.N., Hovland, C.I., & Jenkins, H.M. (1961). learning and
+  memorization of classifications. \emph{Psychological Monographs, 75},
+  Whole No. 517.
+  
 }
 \examples{
-data(nosof94tld)
-## maybe str(nosof94tld) ; plot(nosof94tld) ...
+
+  data(nosof94tld)
+
 }
+
 \keyword{datasets}

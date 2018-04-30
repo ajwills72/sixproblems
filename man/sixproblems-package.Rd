@@ -29,7 +29,8 @@ There is a separate dataset (and help file) for each experiment. For a
 complete list of included experiments, use \code{library(help =
 "sixproblems")}.
 
- } \author{
+ } 
+\author{
 \packageAuthor{sixproblems}
 
 Maintainer: \packageMaintainer{sixproblems}
