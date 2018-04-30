@@ -1,0 +1,11 @@
+Package: sixproblems
+Type: Package
+Title: Six Problems Category Learning Data
+Version: 0.1
+Date: 2018-04-27
+Author: Andy Wills, Rob Nosofsky, Tom Palmeri
+Maintainer: Andy Wills  <andy@willslab.co.uk>
+Description: Trial-level individual-subject data from category learning experiments using the Shepard, Hovland & Jenkins (1961) abstract stimulus structure.
+License: GPL (>= 2)
+LazyData: true
+
