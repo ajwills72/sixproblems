@@ -10,7 +10,10 @@ library(sixproblems)
 ```
 ## Help
 For help, type:
-```?sixproblems```
+`?sixproblems`
 
 ## Datasets included
-```nosof94tld``` - Trial-level individual-subject data from Nosofsky, Gluck, Palmeri, McKinley & Glautier (1994).
+`nosof94tld` - Trial-level individual-subject data from Nosofsky, Gluck, Palmeri, McKinley & Glautier (1994).
+
+`rehder05tld` - Trial-level individual-subject data from Rehder & Hoffman (2005), including eye-tracking data.
+		  
