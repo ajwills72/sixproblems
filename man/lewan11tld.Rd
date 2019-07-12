@@ -15,7 +15,7 @@ Lewandowsky (2011) 'Six Problems' data set
     \item{\code{subj}}{Unique ID number for each combination of subject
       and \code{prob}.}
     \item{\code{session}}{Sessions number: 1-2}
-    \item{\code{phase}}{Phase number: 1-3, i.e. problem number within session)
+    \item{\code{phase}}{Phase number: 1-3, i.e. problem number within session}
     \item{\code{type}}{Problem type: 1-6.}
     \item{\code{block}}{Block number: 1-12; each block contains 16
       trials.}

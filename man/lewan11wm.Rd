@@ -12,10 +12,10 @@ Lewandowsky (2011) 'Six Problems' data set - working memory data
 \format{
   A data frame with 113 observations on the following 7 variables.
   \describe{
-    \item{\code{subjID}}{Unique ID number for each combination of subject
+    \item{\code{subID}}{Unique ID number for each combination of subject
       and \code{prob}.}
     \item{\code{WMUMean}}{Working Memory Updating task score}
-    \item{\code{OSmean}}{Operation Span task score}
+    \item{\code{OSMean}}{Operation Span task score}
     \item{\code{CJOSMean}}{Operation Span processing task score}
     \item{\code{SSMean}}{Sentence Span score}
     \item{\code{SSCJMean}}{Sentence Span processing task score}
