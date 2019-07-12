@@ -1,10 +1,10 @@
 Package: sixproblems
 Type: Package
 Title: Six-Problems Category-Learning Data
-Version: 0.4.2
+Version: 0.5
 Date: 2019-07-12
 Encoding: UTF-8
-Author: Stephan Lewandowsky, Rob Nosofsky, Tom Palmeri, Bob Rehder, René Schegelmilch, Andy Wills
+Author: Andy Wills, René Schegelmilch, Stephan Lewandowsky, Rob Nosofsky, Tom Palmeri, Bob Rehder
 Maintainer: Andy Wills  <andy@willslab.co.uk>
 Description: Trial-level individual-subject data from category learning experiments using the Shepard, Hovland & Jenkins (1961) abstract stimulus structure.
 License: GPL (>= 2)

@@ -31,9 +31,15 @@ Lewandowsky (2011) 'Six Problems' data set
 	z-axis (in and out of the page if the figure were really 3D),
 	dimension 3 is the y-axis (up and down the page).}
       \item{\code{dim2}}{Physical dimension of lofical dimension 2.}
-      \item{\code{dim3}}{Physical dimension of lofical dimension 3.}  
-  }
-}
+      \item{\code{dim3}}{Physical dimension of lofical dimension 3.}
+      \item{\code{logstim}}{Three digit code, e.g. 101, indicating the
+	logical stimulus presented on that trial. Reading left to right,
+	the code indicates logical dimensions 1, 2, and 3.}
+      \item{\code{logcat}}{0 or 1: the logical category membership of
+   the presented stimulus, i.e. corresponding to \code{logstim} and
+   invariant across counterbalance conditions.}
+      \item{\code{resp}}{The response key pressed (0, 1); "/" = 1, "Z" = 0.}
+ } }
 \details{
 
   These are the trial-level individual-subject data for the Lewandowsky
@@ -58,12 +64,13 @@ Lewandowsky (2011) 'Six Problems' data set
   be easily filtered out should that be desired for your particular
   analysis.
 
-  SOURCE NOTES: These data were reported in Lewandowsky (2011).
-  al. (1994), and in Nosofsky, Palmeri et al. (1994). In February 2018,
-  Wills requested and received a digital copy of the individual
-  trial-level data from Lewandowsky. Wills then preprocessed the data
-  into the long-file format presented here. Wills also verified that
-  these data reproduced Figure 2 of Lewandowsky (2011).
+  SOURCE NOTES: These data were reported in Lewandowsky (2011).  In
+  February 2018, Wills requested and received a digital copy of the
+  individual trial-level data from Lewandowsky. Wills then preprocessed
+  the data into the long-file format presented here. Wills also verified
+  that these data reproduced Figure 2 of Lewandowsky (2011). In July
+  2019, Schegelmilch and Wills added the columns \code{logstim, logcat,
+  resp} to facilitate modelling of these data.
 
   DAU: uwa2011-01
 
