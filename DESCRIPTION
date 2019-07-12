@@ -1,7 +1,7 @@
 Package: sixproblems
 Type: Package
 Title: Six-Problems Category-Learning Data
-Version: 0.3
+Version: 0.4
 Date: 2019-07-12
 Author: Stephan Lewandowsky, Rob Nosofsky, Tom Palmeri, Bob Rehder, Andy Wills
 Maintainer: Andy Wills  <andy@willslab.co.uk>
