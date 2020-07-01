@@ -18,13 +18,15 @@ For help, type:
 
 ## Datasets included
 
-All data sets are trial-level individual-subject data.
+All data sets are individual-subject data, mostly at trial level, some at block level.
 
-`lewan11tld` - Lewandowsky (2011). 113 participants, each completing all six
+`kurtz2013e2bld` - Kurtz et al. (2013). Block-level data. 322 participations, completing either a Type II problem or a Type IV problem. 
+
+`lewan11tld` - Lewandowsky (2011). Trial-level data. 113 participants, each completing all six
 problems (i.e. N = 113 per problem).  Working memory data is also included, at
 participant level, in `lewan11wm`.
 
-`nosof94tld` - Nosofsky et al. (1994). 120 participants, each completing two of the six problems (i.e. N = 40 per problem). 
+`nosof94tld` - Trial-level data. Nosofsky et al. (1994). 120 participants, each completing two of the six problems (i.e. N = 40 per problem). 
 
 `rehder05tld` - Rehder & Hoffman (2005). 72 participants, completing one of problems I, II, IV or VI (i.e. N = 18 per problem, problems III and V not included). So, smaller sample than some other data sets, but also included are their eye-tracking data.
 
